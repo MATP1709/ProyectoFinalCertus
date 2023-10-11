@@ -51,7 +51,7 @@ export const Navbar = () => {
               </li>
 
               <li className="nav-list">
-                    <Link to={"/cart"} style={navStyles}>
+                    <Link to={"/carrito"} style={navStyles}>
                     Carrito items <span className="cart-count" >{quantity}</span>
                     </Link>
                </li>
